@@ -102,6 +102,23 @@ print(math.sqrt(16))  # Output: 4.0
 from math import pi
 print(pi)  # Output: 3.141592653589793
 
+   13.Exception Handling = Exceptions are errors that occur during the execution of a program. They can be handled using try-except blocks
+try:
+    d = int(input('ENTER YOUR MOBILE NUMBER: '))
+except ValueError:
+    print('Please enter valid values!!')
+
+   14.FILE HANDLING = Python provides built-in functions for reading and writing files.
+# Writing to a file
+with open("example.txt", "w") as file:
+    file.write("Hello, World!")
+#here "w" refers to write mode                                                                                                                                                                
+ 
+# Reading from a file
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)  # Output: Hello, World!
+#here "r" refers to read mode
  
 
 
